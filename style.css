@@ -13,31 +13,33 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-
-
+    background-color: rgb(241, 206, 119);
 }
 
 .logo {
-    width: 15%;
-    height: 100%;
-    /* border: 2px solid green; */
+    width: 200px;
+    height: 50px;
+    /* border: 2px solid red; */
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+
 }
+
 
 .logo img {
-    width: 60px;
+    width: 90px;
 }
 
+
 .navbar ul {
-    width: 60%;
-    /* border: 2px solid greenyellow; */
+    width: 50%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-
-
+    /* border: 2px solid black; */
 }
 
 .navbar ul li {
@@ -47,259 +49,148 @@
 .navbar ul li a {
     color: black;
     text-decoration: none;
-    font-size: 18px;
-
+    font-size: 15px;
 }
 
-.navbar button {
-    padding: 18px 25px;
-    border: 2px solid blue;
+
+.icon {
+    width: 200px;
+    height: 60px;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.icon img {
+    width: 30px;
+}
+
+
+.main {
+    width: 100%;
+    min-height: 100vh;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    background: url(steam-rises-as-coffee-cools-night-generated-by-ai_188544-10245.avif );
+    background-repeat: no-repeat;
+    /* object-fit: cover; */
+    background-size: cover;
+    flex-direction: column;
+    padding-left: 60px;
+    gap: 20px;
+}
+
+
+.main h1 {
+  font-size: 50px;
+  color: white;
+  /* width: 50%; */
+}
+
+.main p {
+    color: white;
+    font-size: 16px;
+    width: 33%;
+}
+
+.main button {
+    padding: 10px 28px;
+    /* border: 2px solid red; */
     font-size: 18px;
+    background: rgb(251, 203, 106) ;
     border-radius: 30px;
 
 }
 
-.navbar button:hover {
-    color: white;
-    background-color: blue;
-    transition: 1s all ease-in-out;
-}
 
-
-
-
-.one-section {
+.second {
     width: 100%;
-    height: 120vh;
+    min-height: 100vh;
     /* border: 2px solid red; */
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
 }
 
-.one-section .left {
-    width: 40%;
-    height: 120vh;
-    /* border: 2px solid teal; */
+.left {
+    width: 50%;
+    min-height: 100vh;
+    /* border: 2px solid gold; */
     display: flex;
     justify-content: center;
     align-items: start;
     flex-direction: column;
+    gap: 20px;
     padding-left: 50px;
-    gap: 30px;
-}
 
-.left h5 {
-    color: #7153d9;
-    font-size: 20px;
 }
 
 .left h1 {
-    font-size: 70px;
-    width: 80%;
+    font-size: 50px;
+
 }
 
 .left p {
-    font-size: 20px;
-    width: 70%;
+    width: 90%;
 }
-
 .left button {
-    padding: 18px 45px;
+    padding: 10px 28px;
     border: none;
-    background-color: #7153d9;
-    border-radius: 50px;
     font-size: 18px;
+    background: rgba(251, 203, 106, 0.664) ;
+    border-radius: 30px;
+
 }
 
-.one-section .right {
-    width: 60%;
-    height: 120vh;
-    /* border: 2px solid teal; */
+.right {
+    width: 50%;
+    min-height: 100vh;
+    /* border: 2px solid gold; */
     display: flex;
     justify-content: center;
-    align-items: end;
-
+    align-items: center;
+    flex-direction: column;
 
 }
 
 .right img {
-    width: 100%;
-
-}
-
-
-.second-section {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* border: 2px solid red; */
-    gap: 10px;
-}
-
-.card1 {
-    width: 28%;
-    height: 60%;
-    /* border: 2px solid green; */
-    display: flex;
-    justify-content: center;
-    align-items: start;
-    flex-direction: column;
-    gap: 10px;
-
-}
-
-.card1 h5 {
-    color: #7153d9;
-
-}
-
-.img {
-    padding-left: 90%;
-
-}
-
-.img img {
-    width: 50px;
-
-}
-
-.card1 p {
-    font-size: 18px;
-    align-items: center;
-    width: 90%;
-}
-
-
-.card2 {
-    width: 28%;
-    height: 60%;
-    /* border: 2px solid green; */
-    display: flex;
-    justify-content: center;
-    align-items: start;
-    flex-direction: column;
-    gap: 10px;
-}
-
-.card2 h5 {
-    color: #7153d9;
-
-}
-
-.img2 {
-    padding-left: 90%;
-
-}
-
-.img2 img {
-    width: 50px;
-
-}
-
-.card2 p {
-    font-size: 18px;
-    align-items: center;
-    width: 90%;
-}
-
-.card3 {
-    width: 28%;
-    height: 60%;
-    /* border: 2px solid green; */
-    display: flex;
-    justify-content: center;
-    align-items: start;
-    flex-direction: column;
-    gap: 10px;
-
-}
-
-.card3 h5 {
-    color: #7153d9;
-
-}
-
-.img3 {
-    padding-left: 90%;
-
-}
-
-.img3 img {
-    width: 50px;
-
-}
-
-.card3 p {
-    font-size: 18px;
-    align-items: center;
-    width: 90%;
-}
-
-
-
-.three-section {
-    width: 100%;
-    height: 100vh;
-    /* border: 2px solid red; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.left1 {
-    width: 40%;
-    height: 100vh;
-    /* border: 2px solid forestgreen; */
-    display: flex;
-    justify-content: center;
-    align-items: start;
-    flex-direction: column;
-    padding-left: 50px;
-    gap: 30px;
-
-}
-
-.left1 h5 {
-    color: #7153d9;
-    font-size: 20px;
-}
-
-.left1 h1 {
-    font-size: 70px;
-    width: 80%;
-}
-
-.left1 h4 {
-    font-size: 20px;
-}
-
-.left1 p {
-    font-size: 17px;
-    width: 70%;
-}
-
-.left1 button {
-    padding: 18px 45px;
-    border: none;
-    background-color: #7153d9;
-    border-radius: 50px;
-    font-size: 18px;
-}
-
-.right1 {
     width: 60%;
-    height: 100vh;
-    /* border: 2px solid forestgreen; */
+    border-radius: 30px;
+}
+
+.card-item {
+    width: 100%;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-
-
+    gap: 10px;
+    background-color: rgb(230, 233, 235);
 }
 
-.about1 img {
-    width: 40px;
+.card-sec {
+   width: 300px;
+   height: 380px;
+   /* border: 2px solid red; */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   gap: 20px;
+   background-color: white;
+   box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.516);
+   border-radius: 20px;
+}
+
+.card-sec img {
+    width: 250px;
+    height: 250px;
+}
+
+.card-sec h1 {
+    font-size: 30px;
 }
